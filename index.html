@@ -8,11 +8,228 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+	<script src="https://kit.fontawesome.com/703272dbb0.js"  crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <title>Dalla Grazia</title>
 </head>
 <body>
-    <h1>Simple, Rápido & Delicioso</h1>
+    
+		<!--************ container de todo el sitio ************-->
+
+		<div class="site-container">
+			<!--************ Barra de Navegacion ************-->
+
+			<div class="Navbar-container">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#inicio"
+							><img
+								src="IMGS/logoDG.png"
+								alt="LogoDallaGrazia"
+								width="100"
+								height="50"
+						/></a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarNav"
+							aria-controls="navbarNav"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav justify-content-around" style="width: 70%">
+								<li class="nav-item">
+									<a id="inicio" class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#nosotros">Nosotros</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#productos">Productos</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#contacto">Contacto</a>
+								</li>
+                                <li>
+									<a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+
+			<!--************ INICIO ************-->
+
+			<div class="inicio-container">
+				<div class="inicioTextos">
+					<h3 class="titulo-inicio">Simple, rapido y delicioso.</h3>
+
+					<div class="texto-inicio">
+						<p>
+							Nuestra propuesta de valor es ofrecer un producto de alta calidad,
+							100% artesanal, rápido de cocinar y a un precio accesible.
+						</p>
+						<p>
+							Queremos que nuestros clientes disfruten de una buena comida
+							artesanal, sin tener que esforzarse cocinando. Nos gusta saber que
+							creamos momentos inolvidables, atravesados por una experiencia de
+							comida placentera.
+						</p>
+						<p>
+							Para lograrlo, utilizamos materia prima de calidad premium
+							contamos con cocineros profesionales que ponen toda su pasión y
+							tiempo para su elaboración. Las pastas se cocinan en 3 minutos ya
+							que están freezadas, por lo que su cocción es muy simple.
+						</p>
+						<div class="botonesInicio-container">
+							<a class="btn" href="#" role="button">WhatsApp</a>
+							<a class="btn" href="#" role="button">Pedidos Ya</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!--************ CONTAINER NOSOTROS  ************-->
+
+			<div id="nosotros" class="nosotros-container">
+				<div class="texto-nosotros">
+					<h4 class="nosotros">Nosotros</h4>
+					<p>
+						Somos Belu y Javi, una pareja joven que repentinamente tuvo ganas de
+						emprender y de brindar un producto gastronómico de calidad a la
+						gente.
+					</p>
+					<p>
+						Nos pusimos manos a la obra y abrimos Dalla Grazia Pastas
+						Artesanales.
+					</p>
+					<p>
+						Nos encanta la comida gourmet y artesanal, especialmente las pastas
+						(somos fan!). Nuestro problema es que no nos gusta mucho cocinar y
+						contamos con poco tiempo para hacerlo.
+					</p>
+					<p>
+						Es por esto que se nos ocurrió innovar con Dalla Grazia Pastas
+						Artesanales y ofrecer productos congelados, deliciosos, rápidos de
+						cocinar y a un precio accesible. Ofrecemos pastas artesanales,
+						pizzas y empanadas de masa madre, viandas saludables y mucho más
+					</p>
+				</div>
+			</div>
+		</div>
+
+        <!--************ PRODUCTOS  ************-->
+
+        <div id="productos" class="productos-container">
+            <h3 class="productos-titulo"> Nuestros Productos </h3>
+            <p class="productos-texto"> Nuestra propuesta es que disfrutes de la más rica variedad de Comida Artesanal, hecha como en casa, lista para cocinar y a un precio increíble. </p>
+            <div class="productos-container-productos">
+                <div class="producto-container">
+                    <div >
+                        <img class="producto-imagen" src="https://i.postimg.cc/CxN9mQm9/Whats-App-Image-2022-03-13-at-6-03-52-PM.jpg" alt="pasta">
+                    </div>
+                    <div class="producto-texto">
+                        <h4 class="producto-titulo">Pastas Freezadas</h4>
+                    </div> 
+                    <a href="pages/empanadas.html"><button class="producto-boton">+ Ver más</button></a>
+                </div>
+                <div class="producto-container">
+                    <div >
+                        <img class="producto-imagen" src="https://i.postimg.cc/CxN9mQm9/Whats-App-Image-2022-03-13-at-6-03-52-PM.jpg" alt="pasta">
+                    </div>
+                    <div class="producto-texto">
+                        <h4 class="producto-titulo">Viandas Saludables Freezadas</h4>
+                    </div> 
+                    <a href="pages/empanadas.html"><button class="producto-boton">+ Ver más</button></a>
+                </div>
+                <div class="producto-container">
+                    <div >
+                        <img class="producto-imagen" src="https://i.postimg.cc/CxN9mQm9/Whats-App-Image-2022-03-13-at-6-03-52-PM.jpg" alt="pasta">
+                    </div>
+                    <div class="producto-texto">
+                        <h4 class="producto-titulo">Salsas Freezadas</h4>
+                    </div> 
+                    <a href="pages/empanadas.html"><button class="producto-boton">+ Ver más</button></a>
+                </div>
+                <div class="producto-container">
+                    <div >
+                        <img class="producto-imagen" src="https://i.postimg.cc/CxN9mQm9/Whats-App-Image-2022-03-13-at-6-03-52-PM.jpg" alt="pasta">
+                    </div>
+                    <div class="producto-texto">
+                        <h4 class="producto-titulo">Pizzas Freezadas</h4>
+                    </div> 
+                    <a href="pages/empanadas.html"><button class="producto-boton">+ Ver más</button></a>
+                </div>
+                <div class="producto-container">
+                    <div >
+                        <img class="producto-imagen" src="https://i.postimg.cc/CxN9mQm9/Whats-App-Image-2022-03-13-at-6-03-52-PM.jpg" alt="pasta">
+                    </div>
+                    <div class="producto-texto">
+                        <h4 class="producto-titulo">Empanadas Freezadas</h4>
+                    </div> 
+                    <a href="pages/empanadas.html"><button class="producto-boton">+ Ver más</button></a>
+                </div>
+                <div class="producto-container">
+                    <div >
+                        <img class="producto-imagen" src="https://i.postimg.cc/CxN9mQm9/Whats-App-Image-2022-03-13-at-6-03-52-PM.jpg" alt="pasta">
+                    </div>
+                    <div class="producto-texto">
+                        <h4 class="producto-titulo">Postres</h4>
+                    </div> 
+                    <a href="pages/postres.html"><button class="producto-boton">+ Ver más</button></a>
+                </div>
+                <div class="producto-container">
+                    <div >
+                        <img class="producto-imagen" src="https://i.postimg.cc/CxN9mQm9/Whats-App-Image-2022-03-13-at-6-03-52-PM.jpg" alt="pasta">
+                    </div>
+                    <div class="producto-texto">
+                        <h4 class="producto-titulo">Vinos</h4>
+                    </div> 
+                    <a href="pages/vino.html"><button class="producto-boton">+ Ver más</button></a>
+                </div>
+                <div class="producto-container">
+                    <div >
+                        <img class="producto-imagen" src="https://i.postimg.cc/CxN9mQm9/Whats-App-Image-2022-03-13-at-6-03-52-PM.jpg" alt="pasta">
+                    </div>
+                    <div class="producto-texto">
+                        <h4 class="producto-titulo">Bebidas</h4>
+                    </div> 
+                    <a href="pages/bebida.html"><button class="producto-boton">+ Ver más</button></a>
+                </div>
+            </div>
+        </div>
+
+         <!--************ CONTACTO  ************-->
+
+        <div id="contacto" class="contacto-container">
+            <h3 class="contacto-titulo"> Contacto </h3>
+            <p class="productos-texto"> Te esperamos para que pruebes nuestras exquisitas pastas artesanales y la variedad de productos que tenemos para ofrecerte. </p>
+        </div>
+
+        <!--************ FOOTER  ************-->
+
+        <div class="footer-container">
+            <div class="footer-container-logo">
+                <a class="navbar-brand" href="#inicio"
+							><img
+								src="IMGS/logoDG.png"
+								alt="LogoDallaGrazia"
+								width="200"
+								height="100"
+						/></a>
+            </div>
+        </div>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

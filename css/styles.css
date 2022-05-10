@@ -8,3 +8,294 @@ html {
 
 body {
   background-color: #E5E5E5; }
+
+ /* Barra de Navegacion */
+
+ nav {
+  width: 100%;
+  height: 8em;
+  background-color: black;
+  
+}
+
+.navbar-light .navbar-brand{
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+color: white;
+font-family: Poppins;
+font-size: 1.5em;
+
+}
+
+.navbar-light .navbar-toggler{
+color: white;
+}
+
+/********************** HOVER EFFECTS **************************/
+ul{
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li{
+  position: relative;
+  padding: 0 20px;
+  height: 100%;
+  display: flex;
+}
+
+a{
+  z-index: 1;
+  color: white;
+  text-decoration: none;
+  padding: 10px 5px;
+  font-family: Poppins;
+  font-size: 1.2em;
+}
+
+li:before{
+  content: "";
+  position: absolute;
+  height: 33.33%;
+  width: 0;
+  background-color: #8E1605;
+  right: 0;
+  z-index: 0;
+  top: 33.33%;
+  transition: all 0.5s;
+}
+
+li:after{
+  content: "";
+  position: absolute;
+  height: 33.33%;
+  width: 0;
+  background-color: #8E1605;
+  left: 0;
+  z-index: 0;
+  bottom: 0;
+  transition: all 0.5s;
+}
+
+a:before{
+  position: absolute;
+  content: "";
+  height: 33.33%;
+  width: 0;
+  background-color: #8E1605;
+  bottom: 66.66%;
+  left: 0;
+  transition: all 0.5s;
+}
+
+li:hover:before,
+li:hover:after,
+li:hover a:before{
+  width: 100%;
+}
+
+/* SECCION INICIO */
+
+.inicio-container {
+width: 100%;
+height: 31.25;
+background-image: url(../IMGS/inicioBG3.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+h3 {
+font-family: Poppins;
+padding-bottom: 2em;
+padding-left: 5.5em;
+}
+
+.titulo-inicio{
+padding-top: 5em;
+}
+
+.texto-inicio {
+padding-left: 10em;
+width: 32em;
+height: 33.75em;
+font-size: 1.125;
+font-family: Poppins;
+}
+
+
+.btn {
+color: white;
+background-color: #8E1605;
+margin-right: 3em;
+}
+
+
+/* SECCION NOSOTROS */
+
+.nosotros-container {
+display: flex;
+justify-content: center;
+width: 100%;
+height: 75em;
+background-image: url(../IMGS/NosotrosBG.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.texto-nosotros {
+background-color: black;
+opacity: 0.7;
+border-radius: 0.5em;
+color: white;
+width: 32em;
+height: 33.75em;
+text-align: center;
+align-self: center;
+font-size: 1.5em;
+font-family: Poppins;
+}
+
+.nosotros {
+padding-top: 2.5em;
+padding-bottom: 2.5em;
+font-family: Poppins;
+}  
+
+/* SECCION PRODUCTOS */
+
+.productos-titulo {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.productos-texto {
+  text-align: center;
+}
+
+.productos-container-productos {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.producto-container {
+  background-color: #8E1605;
+  display: flex;
+  flex-direction: column;
+  width: 333px;
+  height: 400px;
+  margin-top: 50px;
+} 
+
+.producto-imagen {
+  border-bottom-left-radius: 130px;
+  border-bottom-right-radius: 130px;
+  width: 100%;
+}
+
+.producto-texto {
+  color: #E5E5E5;
+  text-align: center;
+}
+
+.producto-titulo {
+  font-size: 2rem;
+  padding-top: 40px;
+  border-bottom: 2px solid #E5E5E5;
+  padding-bottom: 3px;
+} 
+
+
+.producto-boton {
+  background-color: black;
+  color:#E5E5E5;
+  border: none;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  font-size: 1.2em;
+  width: 50%;
+  margin-top: 25px;
+  margin-left: 75px;
+
+}
+
+/* CONTACTO */
+
+.contacto-titulo {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+/* FOOTER */
+.footer-container {
+  height: 14em;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.footer-container-logo {
+  text-align: center;
+  padding-top: 15px;
+}
+
+/* cards prods */
+
+.div-titulo {
+  background-color: #8E1605;
+  height: 40px;
+}
+
+.titulo-h1 {
+  color: #E5E5E5;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.titulo-h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.div-cards {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card-container {
+  background-color: #8E1605;
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.card-img {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.titulo-h3 {
+  text-align: center;
+  align-self: center;
+  color: #E5E5E5;
+  padding-bottom: 0;
+  padding-left: 0;
+}
