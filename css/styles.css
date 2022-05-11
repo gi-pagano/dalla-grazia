@@ -345,6 +345,7 @@ font-family: Poppins;
 .card-img {
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
+  width: 220px;
 }
 
 .titulo-h3 {
